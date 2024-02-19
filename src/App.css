@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.custom-header .ant-table-thead > tr th::before {
+  background-color: transparent !important;
+}
+.custom-header .ant-table-thead > tr th {
+  background-color: black !important;
+  border: 0px;
+  color: #8a8aa0;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 2rem 1rem !important;
+}
+
+.custom-header .ant-table-tbody > tr td {
+  background-color: #101010 !important;
+  border: 0px;
+  border-bottom: 1px dimgray !important;
+  color: #8a8aa0;
+}
+.custom-header .ant-table {
+  background-color: transparent !important;
+}
+.custom-header .ant-table-content table{
+  border: 0px;
+  border-radius: 0px;
+}
