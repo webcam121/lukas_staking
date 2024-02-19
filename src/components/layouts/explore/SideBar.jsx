@@ -26,14 +26,14 @@ const SideBar = () => {
                             <Typography.Title level={5} style={{color :'#8a8aa0'}}>Token Name</Typography.Title>
                             <Input
                                 size="small"
-                                value="satoshiEVM"
+                                placeholder="satoshiEVM"
                             />
                         </div>
                         <div>
                             <Typography.Title level={5} style={{color :'#8a8aa0'}}>Token Symbol</Typography.Title>
                             <Input
                                 size="small"
-                                value="SEVM"
+                                placeholder="SEVM"
                             />
                         </div>
                         <div>

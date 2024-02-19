@@ -61,3 +61,11 @@
   border: 0px;
   border-radius: 0px;
 }
+
+.ant-input-outlined:hover {
+  background-color: transparent !important;
+}
+
+.ant-input-outlined:focus {
+  background-color: transparent !important;
+}
